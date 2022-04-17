@@ -18,7 +18,7 @@
 ### 2.2 배포
 
 - Github Pages 사용
-- url
+- https://alstjr5949.github.io/dropdownSelectBox/
 
 ## 3. Preview
 
