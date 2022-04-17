@@ -1,1 +1,80 @@
 @import "reset.css";
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selectBtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+  padding: 13px 13px 12px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 9px;
+}
+
+.selectBtn::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: url("imgs/arrow_sprites.png") -10px -10px;
+}
+
+.selectBtn.up::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: url("imgs/arrow_sprites.png") -10px -40px;
+}
+
+.selectBtn:focus {
+  border: 1px solid #9b51e0;
+  outline: 3px solid #f8e4ff;
+}
+
+.lang {
+  width: 200px;
+  border: 1px solid #c4c4c4;
+  box-shadow: 4px 4px 14px 0px #00000026;
+  border-radius: 10px;
+  padding: 4px 0;
+}
+
+.langList {
+  padding: 5px 8px;
+}
+
+.langBtn {
+  padding: 7px 10px;
+  width: 100%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: transparent;
+  text-align: left;
+}
+
+.langBtn:hover {
+  background-color: #f8e4ff;
+}
+
+.hidden {
+  /* 공간을 차지하는게 더 자연스러움 */
+  opacity: 0;
+}
