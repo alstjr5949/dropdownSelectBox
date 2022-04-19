@@ -1,4 +1,4 @@
-#Dropdown Selectbox
+# Dropdown Selectbox
 
 - 멋쟁이사자처럼 프론트엔드 스쿨 과제
 
@@ -7,7 +7,7 @@
 - 기존의 select box 에서 벗어난 dropdown selectbox를 구현하는 것 뿐만 아니라, 기존의 select box의 기능까지 구현해내는 것
 - Figma를 사용해 마음대로 만드는 것이 아닌 디자이너 분이 전해준 디자인을 그대로 구현하는 것
 
-### 2. 개발언어 및 배포
+## 2. 개발언어 및 배포
 
 ### 2.1 개발언어
 
